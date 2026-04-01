@@ -17,10 +17,19 @@ interface Config {
 }
 
 const DEFAULT: Config = {
-  logo: "",
+  logo: "/logo.png",
   name: "myClaude News",
   subtitle: "The marketplace for the Claude Code ecosystem",
-  links: [],
+  links: [
+    { id: "1", title: "myClaude Marketplace", url: "https://myclaude.sh", icon: "🏪" },
+    { id: "2", title: "Explore Products", url: "https://myclaude.sh/explore", icon: "🔍" },
+    { id: "3", title: "Unreal Forge Pro", url: "https://myclaude.sh/p/unreal-forge-pro", icon: "🎮" },
+    { id: "4", title: "Eva Genesis — Design System", url: "https://myclaude.sh/p/eva-genesis", icon: "🎨" },
+    { id: "5", title: "La Bottega — Multi-Agent Framework", url: "https://myclaude.sh/p/la-bottega", icon: "🏛️" },
+    { id: "6", title: "Just Status Line — 12 Themes", url: "https://myclaude.sh/p/just-statusline-vol1", icon: "🖥️" },
+    { id: "7", title: "Kairo — Synthetic Reasoning", url: "https://myclaude.sh/p/kairo-synthetic-reasoning", icon: "🧠" },
+    { id: "8", title: "Instagram @myclaudenews", url: "https://instagram.com/myclaudenews", icon: "📸" },
+  ],
 };
 
 export default function AdminPage() {

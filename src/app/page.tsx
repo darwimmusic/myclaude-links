@@ -17,7 +17,7 @@ interface Config {
 }
 
 const DEFAULT_CONFIG: Config = {
-  logo: "",
+  logo: "/logo.png",
   name: "myClaude News",
   subtitle: "The marketplace for the Claude Code ecosystem",
   links: [
